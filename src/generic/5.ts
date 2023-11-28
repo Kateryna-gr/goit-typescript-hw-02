@@ -4,7 +4,8 @@
 */
 
 interface KeyValuePair<K, V> {
-  K: V;
+  key: K;
+  value: V;
 }
 
 export {};
